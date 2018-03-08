@@ -1,0 +1,41 @@
+{
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "testRegex": "(/src/.*|(\\.|/))\\.spec\\.(js|ts)$",
+  "moduleFileExtensions": [
+    "ts",
+    "js",
+    "json"
+  ],
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "mapCoverage": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.ts"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "__tests__"
+  ],
+  "coverageReporters": [
+    "json",
+    "json-summary",
+    "lcov",
+    "text",
+    "text-summary",
+    "html"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 30,
+      "functions": 30,
+      "lines": 50,
+      "statements": 50
+    }
+  },
+  "testEnvironment": "node",
+  "verbose": true
+}

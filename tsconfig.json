@@ -1,0 +1,29 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015"
+  },
+  "rules": {
+    "array-bracket-spacing": true,
+    "linebreak-style": [
+      true,
+      "LF"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape",
+      "avoid-template"
+    ],
+    "strict-boolean-expressions": false,
+    "variable-name": [
+      true,
+      "allow-pascal-case"
+    ],
+    "no-unused-variable": true
+  },
+  "rulesDirectory": [],
+  "target": "es6"
+}

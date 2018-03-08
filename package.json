@@ -1,0 +1,28 @@
+{
+  "name": "promise-jest",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js --display-error-details",
+    "test": "jest --config jest.config.json"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "nock": "^9.2.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^22.1.2",
+    "@types/nock": "^9.1.2",
+    "jest": "^22.3.0",
+    "jest-cli": "^22.3.0",
+    "json-loader": "^0.5.7",
+    "ts-jest": "^22.0.4",
+    "ts-loader": "^3.5.0",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.6.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0"
+  }
+}
